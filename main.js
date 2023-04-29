@@ -26,12 +26,14 @@ const cardsOnDom = (students) => {
   let domString = "";
 
   students.forEach((student) => {
-    const card = `<div class = "card text-center" style="width: 18rem;>
+    const card = `<div class = "card text-center" style="width: 18rem;">
     <h5 class ="card-header">${student.name}</h5>
     <div class="card-body">
       <h5 class="card-text">${student.house}</h5>
     </div>
-    </div>`;
+    </div>
+    
+    <div></div>`;
     domString += card;
   });
   renderToDom("#app", domString);
