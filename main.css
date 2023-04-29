@@ -1,0 +1,19 @@
+body {
+  background-color: #3e136e;
+  color: #ffc300;
+}
+
+.student {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filterButtons {
+  display: flex;
+  justify-content: space-around;
+  row-gap: 10px;
+}
