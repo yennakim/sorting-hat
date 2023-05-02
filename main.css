@@ -3,7 +3,7 @@ body {
   color: #ffc300;
 }
 
-.student {
+/* .student {
   display: flex;
   flex-direction: row;
 }
@@ -16,4 +16,12 @@ h1 {
   display: flex;
   justify-content: space-around;
   row-gap: 10px;
+} */
+
+.test {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 5px solid green;
 }
