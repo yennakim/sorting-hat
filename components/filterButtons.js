@@ -1,5 +1,5 @@
 export const filterButtons = (object) => {
-  return `<div class="filterButtons">
+  return ` <div class="filterButtons">
   <button class="btn btn-secondary" id="showAll">Show All</button>
   <button class="btn btn-danger" id="gryffindor">Gryffindor</button>
   <button class="btn btn-warning" id="hufflepuff">Hufflepuff</button>

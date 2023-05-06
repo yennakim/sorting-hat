@@ -3,9 +3,9 @@ body {
   color: #ffc300;
 }
 
-/* .student {
-  display: flex;
-  flex-direction: row;
+.firstYears {
+  width: 50%;
+  background-color: #dad7cd;
 }
 
 h1 {
@@ -16,12 +16,14 @@ h1 {
   display: flex;
   justify-content: space-around;
   row-gap: 10px;
-} */
+}
 
-.test {
+.voldysArmy {
+  width: 50%;
+  background-color: black;
+}
+
+.containers {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  border: 5px solid green;
+  flex-flow: row wrap;
 }
